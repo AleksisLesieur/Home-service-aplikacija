@@ -1,0 +1,57 @@
+.avatarContainer {
+  position: relative;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  right: -80%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  white-space: nowrap;
+}
+
+.dropdownMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdownMenu li {
+  padding: 20px 40px 0 15px;
+  text-align: left;
+  border-bottom: #333;
+}
+
+.dropdownMenu li button {
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  padding: 0 0 10px 0;
+  width: 100%;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.dropdownMenu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.loggedOutButton {
+  background-color: #8056eb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}

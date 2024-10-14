@@ -1,0 +1,36 @@
+.searchResult {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .titles {
+    display: flex;
+    // gap: 4em;
+    width: 100%;
+    padding: 1rem 0 0 4rem;
+    padding-bottom: 1em;
+    .mainTitle {
+      padding-top: 4rem;
+      color: #8056eb;
+      font-size: 1.4rem;
+      width: 30%;
+      // margin-bottom: 2rem;
+    }
+    .serviceTitle {
+      padding: 4rem 0 0 4rem;
+      font-size: 1.4rem;
+      width: 70%;
+    }
+  }
+
+  .container {
+    display: flex;
+    padding: 1rem 0 0 4rem;
+    // width: 100%;
+    .service {
+      width: 30%;
+    }
+    .businessCards {
+      width: 70%;
+    }
+  }
+}

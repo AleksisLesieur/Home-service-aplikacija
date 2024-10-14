@@ -1,0 +1,47 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.loading,
+.error,
+.noBookings {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.bookingsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bookingItem {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookingInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.date,
+.time {
+  font-weight: bold;
+}
